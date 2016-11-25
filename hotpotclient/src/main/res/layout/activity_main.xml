@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="wukai.hotpotclient.MainActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="搜索1603热点"
+        android:onClick="searchAp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="连接热点"
+        android:onClick="connAp"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="发送数据"
+        android:onClick="send"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
